@@ -8,22 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		5F5903DF280020DC000BC5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5903DE280020DC000BC5A2 /* AppDelegate.swift */; };
-		5F5903E1280020DC000BC5A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5903E0280020DC000BC5A2 /* SceneDelegate.swift */; };
-		5F5903E3280020DC000BC5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5903E2280020DC000BC5A2 /* ViewController.swift */; };
-		5F5903E6280020DC000BC5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5903E4280020DC000BC5A2 /* Main.storyboard */; };
+		5F5903E3280020DC000BC5A2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5903E2280020DC000BC5A2 /* RootViewController.swift */; };
 		5F5903E8280020DD000BC5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5903E7280020DD000BC5A2 /* Assets.xcassets */; };
 		5F5903EB280020DD000BC5A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5903E9280020DD000BC5A2 /* LaunchScreen.storyboard */; };
+		5F5903F428002168000BC5A2 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 5F5903F328002168000BC5A2 /* Inject */; };
+		CEFE4C26169C17BB28A5B620 /* Pods_FlexLayout_HotReload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A7FAAAF33E1F3D19F8C1A1 /* Pods_FlexLayout_HotReload.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A7FAAAF33E1F3D19F8C1A1 /* Pods_FlexLayout_HotReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayout_HotReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44230C88B204DAF611690CEB /* Pods-FlexLayout_HotReload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayout_HotReload.release.xcconfig"; path = "Target Support Files/Pods-FlexLayout_HotReload/Pods-FlexLayout_HotReload.release.xcconfig"; sourceTree = "<group>"; };
+		5BF45322C56978081D1DF615 /* Pods-FlexLayout_HotReload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayout_HotReload.debug.xcconfig"; path = "Target Support Files/Pods-FlexLayout_HotReload/Pods-FlexLayout_HotReload.debug.xcconfig"; sourceTree = "<group>"; };
 		5F5903DB280020DC000BC5A2 /* FlexLayout_HotReload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayout_HotReload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5903DE280020DC000BC5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F5903E0280020DC000BC5A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F5903E2280020DC000BC5A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F5903E5280020DC000BC5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F5903E2280020DC000BC5A2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5F5903E7280020DD000BC5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F5903EA280020DD000BC5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F5903EC280020DD000BC5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5903F5280022E3000BC5A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F5903F62800237A000BC5A2 /* preview-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "preview-1.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFE4C26169C17BB28A5B620 /* Pods_FlexLayout_HotReload.framework in Frameworks */,
+				5F5903F428002168000BC5A2 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +45,12 @@
 		5F5903D2280020DC000BC5A2 = {
 			isa = PBXGroup;
 			children = (
+				5F5903F5280022E3000BC5A2 /* README.md */,
+				5F5903F62800237A000BC5A2 /* preview-1.gif */,
 				5F5903DD280020DC000BC5A2 /* FlexLayout_HotReload */,
 				5F5903DC280020DC000BC5A2 /* Products */,
+				72CE5AC8D0227AA0A219F7E7 /* Pods */,
+				E513B3D4A94C6613A2BDF2A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,29 @@
 			isa = PBXGroup;
 			children = (
 				5F5903DE280020DC000BC5A2 /* AppDelegate.swift */,
-				5F5903E0280020DC000BC5A2 /* SceneDelegate.swift */,
-				5F5903E2280020DC000BC5A2 /* ViewController.swift */,
-				5F5903E4280020DC000BC5A2 /* Main.storyboard */,
+				5F5903E2280020DC000BC5A2 /* RootViewController.swift */,
 				5F5903E7280020DD000BC5A2 /* Assets.xcassets */,
 				5F5903E9280020DD000BC5A2 /* LaunchScreen.storyboard */,
 				5F5903EC280020DD000BC5A2 /* Info.plist */,
 			);
 			path = FlexLayout_HotReload;
+			sourceTree = "<group>";
+		};
+		72CE5AC8D0227AA0A219F7E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BF45322C56978081D1DF615 /* Pods-FlexLayout_HotReload.debug.xcconfig */,
+				44230C88B204DAF611690CEB /* Pods-FlexLayout_HotReload.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E513B3D4A94C6613A2BDF2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38A7FAAAF33E1F3D19F8C1A1 /* Pods_FlexLayout_HotReload.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +98,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5903EF280020DD000BC5A2 /* Build configuration list for PBXNativeTarget "FlexLayout_HotReload" */;
 			buildPhases = (
+				55D17B8A408F8AF73ADB3469 /* [CP] Check Pods Manifest.lock */,
 				5F5903D7280020DC000BC5A2 /* Sources */,
 				5F5903D8280020DC000BC5A2 /* Frameworks */,
 				5F5903D9280020DC000BC5A2 /* Resources */,
+				D0456B2816FFACFE7099B315 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FlexLayout_HotReload;
+			packageProductDependencies = (
+				5F5903F328002168000BC5A2 /* Inject */,
+			);
 			productName = FlexLayout_HotReload;
 			productReference = 5F5903DB280020DC000BC5A2 /* FlexLayout_HotReload.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,9 @@
 				Base,
 			);
 			mainGroup = 5F5903D2280020DC000BC5A2;
+			packageReferences = (
+				5F5903F228002168000BC5A2 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 5F5903DC280020DC000BC5A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +159,66 @@
 			files = (
 				5F5903EB280020DD000BC5A2 /* LaunchScreen.storyboard in Resources */,
 				5F5903E8280020DD000BC5A2 /* Assets.xcassets in Resources */,
-				5F5903E6280020DC000BC5A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55D17B8A408F8AF73ADB3469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexLayout_HotReload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0456B2816FFACFE7099B315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexLayout_HotReload/Pods-FlexLayout_HotReload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexLayout_HotReload/Pods-FlexLayout_HotReload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexLayout_HotReload/Pods-FlexLayout_HotReload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F5903D7280020DC000BC5A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5903E3280020DC000BC5A2 /* ViewController.swift in Sources */,
+				5F5903E3280020DC000BC5A2 /* RootViewController.swift in Sources */,
 				5F5903DF280020DC000BC5A2 /* AppDelegate.swift in Sources */,
-				5F5903E1280020DC000BC5A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F5903E4280020DC000BC5A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F5903E5280020DC000BC5A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F5903E9280020DD000BC5A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +348,7 @@
 		};
 		5F5903F0280020DD000BC5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF45322C56978081D1DF615 /* Pods-FlexLayout_HotReload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +358,6 @@
 				INFOPLIST_FILE = FlexLayout_HotReload/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,6 +365,32 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FlexLayout\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PinLayout\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxGesture\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinhyuk.FlexLayout-HotReload";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -311,6 +401,7 @@
 		};
 		5F5903F1280020DD000BC5A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44230C88B204DAF611690CEB /* Pods-FlexLayout_HotReload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +411,6 @@
 				INFOPLIST_FILE = FlexLayout_HotReload/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,6 +418,32 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FlexLayout\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PinLayout\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxGesture\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinhyuk.FlexLayout-HotReload";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -358,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F5903F228002168000BC5A2 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F5903F328002168000BC5A2 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F5903F228002168000BC5A2 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5F5903D3280020DC000BC5A2 /* Project object */;
 }
